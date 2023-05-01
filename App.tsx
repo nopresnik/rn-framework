@@ -11,6 +11,8 @@ import { Stops } from "./screens/Stops";
 export default function App() {
   const Tab = React.useMemo(() => createBottomTabNavigator(), []);
 
+  // testing
+
   return (
     <>
       <StatusBar style="auto" />
